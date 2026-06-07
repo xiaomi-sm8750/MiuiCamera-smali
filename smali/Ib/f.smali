@@ -789,7 +789,7 @@
 
     iget-boolean v5, v4, LIb/q;->y:Z
 
-    if-eqz v5, :cond_17
+    goto :cond_17
 
     iget v5, v4, LIb/q;->l:I
 
