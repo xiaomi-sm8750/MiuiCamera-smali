@@ -244,6 +244,10 @@
 
     move-result-object p1
 
+    invoke-static {p1}, LG8/a;->d(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
     const-string p2, "obfu_res/"
 
     invoke-static {p2, p1}, LB/n2;->h(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -355,4 +359,236 @@
     invoke-static {p2, p0}, LFg/I;->e(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     throw p1
+.end method
+
+.method public static d(Ljava/lang/String;)Ljava/lang/String;
+    .locals 1
+
+    if-nez p0, :cond_0
+
+    return-object p0
+
+    :cond_0
+    const-string v0, "ic_cvtype_item_2_mm.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    const-string p0, "res/4cg.xml"
+
+    return-object p0
+
+    :cond_1
+    const-string v0, "ic_cvtype_item_1_top_mm.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    const-string p0, "res/kcg.xml"
+
+    return-object p0
+
+    :cond_2
+    const-string v0, "ic_cvtype_item_1_mm.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    const-string p0, "res/r4s.xml"
+
+    return-object p0
+
+    :cond_3
+    const-string v0, "ic_cvtype_item_2_top_mm.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const-string p0, "res/u2T.xml"
+
+    return-object p0
+
+    :cond_4
+    const-string v0, "ic_cvtype_item_master.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_5
+
+    const-string p0, "res/2Pc.xml"
+
+    return-object p0
+
+    :cond_5
+    const-string v0, "ic_cv_logo.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_6
+
+    const-string p0, "res/4fk.xml"
+
+    return-object p0
+
+    :cond_6
+    const-string v0, "clear_subject_capture_image_res.png"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_7
+
+    const-string p0, "res/8NF.png"
+
+    return-object p0
+
+    :cond_7
+    const-string v0, "ic_west_coast_princess.webp"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    const-string p0, "res/9cp.webp"
+
+    return-object p0
+
+    :cond_8
+    const-string v0, "polaroid_print_btn.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_9
+
+    const-string p0, "res/E-c.xml"
+
+    return-object p0
+
+    :cond_9
+    const-string v0, "ic_west_coast_icon.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const-string p0, "res/IvC.xml"
+
+    return-object p0
+
+    :cond_a
+    const-string v0, "ic_cvtype_item_master_top_menu.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_b
+
+    const-string p0, "res/RAu.xml"
+
+    return-object p0
+
+    :cond_b
+    const-string v0, "ic_cvtype_item_other.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_c
+
+    const-string p0, "res/U7A.xml"
+
+    return-object p0
+
+    :cond_c
+    const-string v0, "ic_west_coast_icon_princess.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_d
+
+    const-string p0, "res/VAJ.xml"
+
+    return-object p0
+
+    :cond_d
+    const-string v0, "ic_west_coast_icon_queen.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_e
+
+    const-string p0, "res/fNU.xml"
+
+    return-object p0
+
+    :cond_e
+    const-string v0, "ic_cvtype_item_other_top_menu.xml"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_f
+
+    const-string p0, "res/jd0.xml"
+
+    return-object p0
+
+    :cond_f
+    const-string v0, "watermark_sample_disnep.webp"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_10
+
+    const-string p0, "res/SKs.webp"
+
+    return-object p0
+
+    :cond_10
+    const-string v0, "ic_west_coast_queen.webp"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_11
+
+    const-string p0, "res/Gu2.webp"
+
+    return-object p0
+
+    :cond_11
+    return-object p0
 .end method
