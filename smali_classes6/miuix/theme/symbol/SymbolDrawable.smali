@@ -888,19 +888,27 @@
 
     invoke-static {v1, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    new-instance p1, Landroid/graphics/Typeface$Builder;
+    iget-object v1, p0, Lmiuix/theme/symbol/SymbolDrawable;->res:Landroid/content/res/Resources;
 
-    invoke-direct {p1, v0}, Landroid/graphics/Typeface$Builder;-><init>(Ljava/lang/String;)V
+    invoke-virtual {v1}, Landroid/content/res/Resources;->getAssets()Landroid/content/res/AssetManager;
 
-    invoke-virtual {p1, p3}, Landroid/graphics/Typeface$Builder;->setFontVariationSettings(Ljava/lang/String;)Landroid/graphics/Typeface$Builder;
+    move-result-object v1
 
-    move-result-object p1
+    iget-object v2, p0, Lmiuix/theme/symbol/SymbolDrawable;->fontPath:Ljava/lang/String;
 
-    invoke-virtual {p1}, Landroid/graphics/Typeface$Builder;->build()Landroid/graphics/Typeface;
+    if-eqz v2, :cond_catch_font
 
-    move-result-object p1
+    goto :goto_catch_font
 
-    iput-object p1, p0, Lmiuix/theme/symbol/SymbolDrawable;->typeface:Landroid/graphics/Typeface;
+    :cond_catch_font
+    move-object v2, v0
+
+    :goto_catch_font
+    invoke-static {v1, v2}, Landroid/graphics/Typeface;->createFromAsset(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/graphics/Typeface;
+
+    move-result-object v1
+
+    iput-object v1, p0, Lmiuix/theme/symbol/SymbolDrawable;->typeface:Landroid/graphics/Typeface;
 
     :goto_4
     invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
