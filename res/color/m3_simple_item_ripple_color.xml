@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="?sz" android:alpha="@dimen/cb4" />
+    <item android:state_selected="true" android:state_pressed="false" android:color="?sz" android:alpha="@dimen/cbj" />
+    <item android:state_pressed="false" android:color="?sz" android:alpha="@dimen/cbi" android:state_hovered="true" />
+</selector>

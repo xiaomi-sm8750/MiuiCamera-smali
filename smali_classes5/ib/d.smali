@@ -1,0 +1,27 @@
+.class public final Lib/d;
+.super Lna/f;
+.source "SourceFile"
+
+
+# instance fields
+.field public final e:Lgb/d;
+
+
+# direct methods
+.method public constructor <init>(Lgb/d;Lna/f;)V
+    .locals 1
+
+    const-string v0, "documentManager"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/l;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "params"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/l;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0, p2}, Lna/f;-><init>(Lna/f;)V
+
+    iput-object p1, p0, Lib/d;->e:Lgb/d;
+
+    return-void
+.end method

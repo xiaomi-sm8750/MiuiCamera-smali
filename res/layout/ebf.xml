@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera.ui.WatermarkItemView android:id="@id/show_westcoast_item1" android:paddingTop="20.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/gj5" app:a92="true" app:av1="@drawable/ic_west_coast_princess" app:azb="@string/gj5" app:b1u="@color/white" app:b1v="@dimen/doq" />
+    <com.android.camera.ui.WatermarkItemView android:id="@id/show_westcoast_item2" android:paddingTop="20.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/gj6" app:a92="false" app:av1="@drawable/ic_west_coast_queen" app:azb="@string/gj6" app:b1u="@color/text_normal" app:b1v="@dimen/doq" />
+</LinearLayout>

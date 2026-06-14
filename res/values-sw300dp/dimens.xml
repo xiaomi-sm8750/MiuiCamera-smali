@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="blq">10.0dip</dimen>
+    <dimen name="blr">24.0dip</dimen>
+    <dimen name="bls">14.0sp</dimen>
+</resources>

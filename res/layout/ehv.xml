@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/bg_custom_shutter_view" android:layout_width="@dimen/bl4" android:layout_height="@dimen/bl5" android:layout_marginTop="@dimen/bl0">
+        <ImageView android:layout_gravity="start" android:id="@id/style_review_gallery" android:layout_width="@dimen/blh" android:layout_height="@dimen/blh" android:layout_marginTop="@dimen/bli" android:src="@drawable/custom_shutter_gallery" android:contentDescription="@null" android:layout_marginStart="@dimen/blg" />
+        <ImageView android:id="@id/style_review_shutter_button" android:layout_width="@dimen/blj" android:layout_height="@dimen/blj" android:layout_marginTop="@dimen/blf" android:src="@drawable/custom_shutter_default" android:contentDescription="@null" android:layout_marginStart="@dimen/ble" />
+        <ImageView android:id="@id/style_review_camera_switch" android:layout_width="@dimen/blh" android:layout_height="@dimen/blh" android:layout_marginTop="@dimen/bli" android:src="@drawable/custom_shutter_switch" android:contentDescription="@null" android:layout_marginStart="@dimen/blk" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/bln" android:textColor="@color/ic_custom_shutter_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blm" android:text="@string/gk3" android:layout_marginStart="@dimen/bll" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/bg_custom_shutter_list" android:layout_width="@dimen/bl4" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl3">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/shutter_button_style_list" android:layout_width="@dimen/bl4" android:layout_height="wrap_content" android:layout_marginStart="@dimen/bl2" />
+    </FrameLayout>
+</LinearLayout>

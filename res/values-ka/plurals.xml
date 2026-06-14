@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ety">
+        <item quantity="other">წინ გადახვევა %d წამით</item>
+        <item quantity="one">წინ გადახვევა %d წამით</item>
+    </plurals>
+    <plurals name="etz">
+        <item quantity="other">უკან გადახვევა %d წამით</item>
+        <item quantity="one">უკან გადახვევა %d წამით</item>
+    </plurals>
+    <plurals name="eu8">
+        <item quantity="other">%d ახალი შეტყობინება</item>
+        <item quantity="one">%d ახალი შეტყობინება</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ckw">300.0dip</dimen>
+    <dimen name="ckx">300.0dip</dimen>
+    <dimen name="cn7">80.0dip</dimen>
+    <dimen name="cn8">94.0dip</dimen>
+    <dimen name="cnb">8.0sp</dimen>
+    <dimen name="cne">8.0sp</dimen>
+    <dimen name="cvi">4.5dip</dimen>
+</resources>

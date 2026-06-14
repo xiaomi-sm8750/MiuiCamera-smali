@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/a6e" android:duplicateParentState="true" android:layout_width="@dimen/crn" android:layout_height="@dimen/crl" android:scaleType="centerInside" android:layout_marginEnd="@dimen/crm"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

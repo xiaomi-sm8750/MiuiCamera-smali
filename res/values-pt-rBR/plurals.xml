@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="etk">
+        <item quantity="other">Focalizado. %d rostos detectados</item>
+        <item quantity="one">Focalizado. %d rosto detectado</item>
+    </plurals>
+    <plurals name="etl">
+        <item quantity="other">%d fotos em disparo sequencial</item>
+        <item quantity="one">%d foto em disparo sequencial</item>
+    </plurals>
+    <plurals name="etm">
+        <item quantity="other">Intervalo: %d segundos</item>
+        <item quantity="one">Intervalo: %d segundo</item>
+    </plurals>
+    <plurals name="etn">
+        <item quantity="other">Duração: %d minutos</item>
+        <item quantity="one">Duração: %d minuto</item>
+    </plurals>
+    <plurals name="eto">
+        <item quantity="other">Velocidade: %dX</item>
+        <item quantity="one">Velocidade: %dX</item>
+    </plurals>
+    <plurals name="etp">
+        <item quantity="other">Duração: %d segundos</item>
+        <item quantity="one">Duração: %d segundo</item>
+    </plurals>
+    <plurals name="etq">
+        <item quantity="other">Inseriu %d caracteres.</item>
+        <item quantity="one">Inseriu %d caractere.</item>
+    </plurals>
+    <plurals name="etr">
+        <item quantity="other">Insira até %d caracteres.</item>
+        <item quantity="one">Insira até %d caractere.</item>
+    </plurals>
+    <plurals name="ets">
+        <item quantity="other">Você pode conectar até %d câmeras à mesma rede</item>
+        <item quantity="one">Você pode conectar até %d câmera à mesma rede</item>
+    </plurals>
+    <plurals name="ett">
+        <item quantity="other">Você pode conectar até %d monitores à mesma rede</item>
+        <item quantity="one">Você pode conectar até %d monitor à mesma rede</item>
+    </plurals>
+    <plurals name="etu">
+        <item quantity="other">Você pode criar até %d clones por vez.</item>
+        <item quantity="one">Você pode criar até %d clone por vez.</item>
+    </plurals>
+    <plurals name="etv">
+        <item quantity="other">&lt;Data>Não é possível conectar-se à câmera.&lt;br>Este app será fechado em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Depois disso, aguarde alguns minutos e tente novamente.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Não é possível conectar-se à câmera.&lt;br>Este app será fechado em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Depois disso, aguarde alguns minutos e tente novamente.&lt;/Data></item>
+    </plurals>
+    <plurals name="etw">
+        <item quantity="other">&lt;Data>Este dispositivo está superaquecido.&lt;br>O app será fechado em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. O progresso atual foi salvo automaticamente.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Este dispositivo está superaquecido.&lt;br>O app será fechado em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. O progresso atual foi salvo automaticamente.&lt;/Data></item>
+    </plurals>
+    <plurals name="etx">
+        <item quantity="other">&lt;Data>A versão da Câmera que você está utilizando não é compatível com o modelo do seu dispositivo.&lt;br>O app fechará em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Desinstale as atualizações da Câmera e tente novamente.&lt;/Data></item>
+        <item quantity="one">&lt;Data>A versão da Câmera que você está utilizando não é compatível com o modelo do seu dispositivo.&lt;br>O app fechará em &lt;font color=#FFCE16>&lt;b>%1$d s&lt;/b>&lt;/font>. Desinstale as atualizações da Câmera e tente novamente.&lt;/Data></item>
+    </plurals>
+    <plurals name="eu0">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="eu1">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+    </plurals>
+    <plurals name="eu2">
+        <item quantity="other">Timer ativado (%1$d s). As fotos serão transferidas para este dispositivo.</item>
+        <item quantity="one">Timer ativado (%1$d s). As fotos serão transferidas para este dispositivo.</item>
+    </plurals>
+    <plurals name="eu3">
+        <item quantity="other">Excluir %1$d rascunhos?</item>
+        <item quantity="one">Excluir %1$d rascunho?</item>
+    </plurals>
+    <plurals name="eu4">
+        <item quantity="other">Adicione até %d predefinições</item>
+        <item quantity="one">Adicione até %d predefinição</item>
+    </plurals>
+    <plurals name="eu5">
+        <item quantity="other">Excluir %d predefinições agora?</item>
+        <item quantity="one">Excluir %d predefinição agora?</item>
+    </plurals>
+    <plurals name="eu6">
+        <item quantity="other">%d predefinições excluídas</item>
+        <item quantity="one">%d predefinição excluída</item>
+    </plurals>
+    <plurals name="eu7">
+        <item quantity="other">%d predefinições importadas</item>
+        <item quantity="one">%d predefinição importada</item>
+    </plurals>
+    <plurals name="eu8">
+        <item quantity="other">%d novas notificações</item>
+        <item quantity="one">%d nova notificação</item>
+    </plurals>
+    <plurals name="eu9">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="eu_">
+        <item quantity="other">%1$s min</item>
+        <item quantity="one">%1$s min</item>
+    </plurals>
+    <plurals name="eua">
+        <item quantity="other">Gravar %d segundos</item>
+        <item quantity="one">Gravar %d segundo</item>
+    </plurals>
+    <plurals name="eub">
+        <item quantity="other">Você pode gravar vídeos com congelamento de tempo apenas com %d objetos.</item>
+        <item quantity="one">Você pode gravar vídeos com congelamento de tempo apenas com %d objeto.</item>
+    </plurals>
+    <plurals name="euc">
+        <item quantity="other">%1$s fotos</item>
+        <item quantity="one">%1$s foto</item>
+    </plurals>
+</resources>

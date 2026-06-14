@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/hdb" android:ellipsize="marquee" android:id="@id/text_right" android:paddingTop="@dimen/cxl" android:paddingBottom="@dimen/cxk" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cxm" android:maxLines="10" android:textAlignment="viewEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

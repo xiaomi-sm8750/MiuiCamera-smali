@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bft">93.09dip</dimen>
+    <dimen name="bro">138.91519dip</dimen>
+    <dimen name="brq">160.73318dip</dimen>
+    <dimen name="cd4">14.544983dip</dimen>
+    <item type="dimen" name="cjl">0.365</item>
+    <dimen name="czb">13.47998sp</dimen>
+    <dimen name="czc">13.47998dip</dimen>
+    <dimen name="dfq">40.0dip</dimen>
+    <dimen name="dhe">1.4499817dip</dimen>
+    <dimen name="dme">11.635986dip</dimen>
+    <dimen name="dmg">81.08179dip</dimen>
+    <dimen name="dmh">12.363586dip</dimen>
+    <dimen name="dt6">18.139984dip</dimen>
+    <dimen name="dte">83.649994dip</dimen>
+    <dimen name="dtf">40.0dip</dimen>
+    <dimen name="dtg">18.139984dip</dimen>
+    <dimen name="dth">36.44998dip</dimen>
+    <dimen name="dtl">3.6399841dip</dimen>
+    <dimen name="dtn">10.909973dip</dimen>
+    <dimen name="dto">72.72998dip</dimen>
+    <dimen name="dtp">94.0dip</dimen>
+    <dimen name="dtw">7.269989dip</dimen>
+    <dimen name="dtx">7.269989dip</dimen>
+    <dimen name="dtz">23.089996dip</dimen>
+</resources>

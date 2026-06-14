@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="hr4" parent="@android:style/Widget.Button">
+        <item name="android:textAppearance">@style/hdm</item>
+        <item name="android:textSize">@dimen/cnk</item>
+        <item name="android:textColor">?b0p</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">?mw</item>
+        <item name="android:maxWidth">@dimen/cnh</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:elegantTextHeight">true</item>
+        <item name="android:fallbackLineSpacing">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="a7t">true</item>
+    </style>
+    <style name="i0j" parent="@style/hs6">
+        <item name="android:textColor">?android:editTextColor</item>
+        <item name="android:textColorHint">?zn</item>
+        <item name="android:gravity">end|center</item>
+        <item name="afz">1.25</item>
+        <item name="aga">@dimen/cun</item>
+    </style>
+</resources>

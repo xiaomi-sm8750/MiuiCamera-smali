@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="h5m" parent="@style/h5l" />
+    <style name="hcn" parent="@style/hq0">
+        <item name="android:checkboxStyle">@style/hrc</item>
+        <item name="oy">@drawable/miuix_appcompat_btn_checkbox_dark</item>
+        <item name="oz">@bool/b7u</item>
+        <item name="p0">@color/miuix_appcompat_dialog_default_checkbox_btn_on_background_color_dark</item>
+        <item name="p1">@color/miuix_appcompat_dialog_default_checkbox_btn_on_foreground_color_dark</item>
+        <item name="p6">@integer/e7p</item>
+        <item name="p7">@integer/e7r</item>
+        <item name="p8">@color/miuix_appcompat_checkbox_btn_disable_background_color_dark</item>
+        <item name="p9">@color/miuix_appcompat_checkbox_btn_disable_background_color_dark</item>
+        <item name="p_">@color/miuix_appcompat_checkbox_btn_stroke_color_dark</item>
+        <item name="pa">@integer/e7t</item>
+        <item name="pb">@integer/e7v</item>
+        <item name="pe">@color/miuix_appcompat_checkable_btn_text_color_stable_dark</item>
+    </style>
+    <style name="hco" parent="@style/hq1">
+        <item name="android:radioButtonStyle">@style/hrh</item>
+        <item name="p6">@integer/e7p</item>
+        <item name="p7">@integer/e7r</item>
+        <item name="p8">@color/miuix_appcompat_checkbox_btn_disable_background_color_dark</item>
+        <item name="p9">@color/miuix_appcompat_checkbox_btn_disable_background_color_dark</item>
+        <item name="p_">@color/miuix_appcompat_checkbox_btn_stroke_color_dark</item>
+        <item name="pa">@integer/e7t</item>
+        <item name="pb">@integer/e7v</item>
+        <item name="pe">@color/miuix_appcompat_checkable_btn_text_color_stable_dark</item>
+        <item name="aof">@bool/b7u</item>
+        <item name="aog">@color/miuix_appcompat_dialog_default_checkbox_btn_on_background_color_dark</item>
+        <item name="aoh">@color/miuix_appcompat_dialog_default_checkbox_btn_on_foreground_color_dark</item>
+    </style>
+    <style name="hdu" parent="@style/hdt" />
+    <style name="hlg" parent="@style/hld" />
+    <style name="hlh" parent="@style/hle" />
+    <style name="hli" parent="@style/hlf" />
+    <style name="hls" parent="@style/hlr" />
+    <style name="hly" parent="@style/hlg">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">always</item>
+        <item name="a04">true</item>
+        <item name="a25">@style/hsl</item>
+        <item name="and">@style/hls</item>
+    </style>
+    <style name="hm3" parent="@style/hm2">
+        <item name="a25">@style/hsl</item>
+    </style>
+    <style name="hr2" parent="@style/hr1" />
+    <style name="hrl" parent="@style/hrk" />
+    <style name="hs9" parent="@style/hs8" />
+    <style name="hsa" parent="@style/hs_" />
+    <style name="hsh" parent="@style/hsg" />
+    <style name="hsm" parent="@style/hsk" />
+    <style name="hsq" parent="@style/hsp" />
+    <style name="hsu" parent="@style/hst" />
+    <style name="ht3" parent="@style/ht2" />
+    <style name="ht6" parent="@style/ht5" />
+    <style name="hzj" parent="@style/hzi" />
+    <style name="hzm" parent="@style/hzl" />
+    <style name="hzr" parent="@style/hzq" />
+    <style name="hzz" parent="@style/hzy" />
+    <style name="i0h" parent="@style/i0g" />
+    <style name="i0s" parent="@style/i0r" />
+</resources>

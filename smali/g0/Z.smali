@@ -1,0 +1,379 @@
+.class public final Lg0/Z;
+.super Lg0/Y;
+.source "SourceFile"
+
+
+# direct methods
+.method public static j(IILjava/lang/String;)Lcom/android/camera/data/data/d;
+    .locals 2
+
+    new-instance v0, Lcom/android/camera/data/data/d;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v1, -0x1
+
+    iput v1, v0, Lcom/android/camera/data/data/d;->d:I
+
+    iput v1, v0, Lcom/android/camera/data/data/d;->e:I
+
+    iput v1, v0, Lcom/android/camera/data/data/d;->i:I
+
+    iput v1, v0, Lcom/android/camera/data/data/d;->j:I
+
+    const/4 v1, 0x0
+
+    iput v1, v0, Lcom/android/camera/data/data/d;->z:I
+
+    iput-object p2, v0, Lcom/android/camera/data/data/d;->p:Ljava/lang/String;
+
+    iput p0, v0, Lcom/android/camera/data/data/d;->c:I
+
+    iput p0, v0, Lcom/android/camera/data/data/d;->f:I
+
+    iput p1, v0, Lcom/android/camera/data/data/d;->k:I
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final getDefaultValue(I)Ljava/lang/String;
+    .locals 0
+
+    const-string p0, "1"
+
+    return-object p0
+.end method
+
+.method public final getDisplayTitleString()I
+    .locals 0
+
+    sget p0, Laa/f;->manual_picture_style_desc_custom:I
+
+    return p0
+.end method
+
+.method public final getItems()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/android/camera/data/data/d;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/android/camera/data/data/c;->mItems:Ljava/util/List;
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {p0}, Lg0/Z;->initItems()Ljava/util/List;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/android/camera/data/data/c;->mItems:Ljava/util/List;
+
+    :cond_0
+    iget-object p0, p0, Lcom/android/camera/data/data/c;->mItems:Ljava/util/List;
+
+    return-object p0
+.end method
+
+.method public final getKey(I)Ljava/lang/String;
+    .locals 0
+
+    const-string/jumbo p0, "pref_picture_style_new"
+
+    return-object p0
+.end method
+
+.method public final i()Z
+    .locals 3
+
+    invoke-static {}, La0/a;->a()Lc0/a1;
+
+    move-result-object p0
+
+    const-class v0, Lc0/V0;
+
+    invoke-virtual {p0, v0}, Lfa/b;->v(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lc0/V0;
+
+    const/16 v0, 0xa0
+
+    invoke-virtual {p0, v0}, Lcom/android/camera/data/data/c;->getComponentValue(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v1, "0"
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1
+
+    invoke-static {}, La0/a;->a()Lc0/a1;
+
+    move-result-object p0
+
+    const-class v2, Lc0/v0;
+
+    invoke-virtual {p0, v2}, Lfa/b;->v(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lc0/v0;
+
+    invoke-virtual {p0, v0}, Lcom/android/camera/data/data/c;->getComponentValue(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1
+
+    invoke-static {}, La0/a;->a()Lc0/a1;
+
+    move-result-object p0
+
+    const-class v2, Lc0/t0;
+
+    invoke-virtual {p0, v2}, Lfa/b;->v(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lc0/t0;
+
+    invoke-virtual {p0, v0}, Lcom/android/camera/data/data/c;->getComponentValue(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1
+
+    invoke-static {}, La0/a;->a()Lc0/a1;
+
+    move-result-object p0
+
+    const-class v2, Lc0/T0;
+
+    invoke-virtual {p0, v2}, Lfa/b;->v(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lc0/T0;
+
+    invoke-virtual {p0, v0}, Lcom/android/camera/data/data/c;->getComponentValue(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1
+
+    invoke-static {}, La0/a;->a()Lc0/a1;
+
+    move-result-object p0
+
+    const-class v2, Lc0/X0;
+
+    invoke-virtual {p0, v2}, Lfa/b;->v(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lc0/X0;
+
+    invoke-virtual {p0, v0}, Lcom/android/camera/data/data/c;->getComponentValue(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-nez p0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    const/4 p0, 0x1
+
+    :goto_1
+    return p0
+.end method
+
+.method public final initItems()Ljava/util/List;
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/android/camera/data/data/d;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    invoke-static {}, Lcom/android/camera/data/data/compat/ComponentThemeCompat;->getImpl()Lcom/android/camera/data/data/compat/ComponentThemeInterface;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lcom/android/camera/data/data/compat/ComponentThemeInterface;->getComponentThemePro()Lcom/android/camera/data/data/compat/common/ComponentThemeProInterface;
+
+    move-result-object v1
+
+    sget v2, Laa/c;->ic_manual_picturestyle_tone:I
+
+    invoke-interface {v1, v2}, Lcom/android/camera/data/data/compat/common/ComponentThemeProInterface;->getPictureStyleRes(I)I
+
+    move-result v1
+
+    sget v2, Laa/f;->pref_camera_contrast_title:I
+
+    const-string v3, "1"
+
+    invoke-static {v1, v2, v3}, Lg0/Z;->j(IILjava/lang/String;)Lcom/android/camera/data/data/d;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    invoke-static {}, Lcom/android/camera/data/data/compat/ComponentThemeCompat;->getImpl()Lcom/android/camera/data/data/compat/ComponentThemeInterface;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lcom/android/camera/data/data/compat/ComponentThemeInterface;->getComponentThemePro()Lcom/android/camera/data/data/compat/common/ComponentThemeProInterface;
+
+    move-result-object v1
+
+    sget v2, Laa/c;->ic_manual_picturestyle_color_temperature:I
+
+    invoke-interface {v1, v2}, Lcom/android/camera/data/data/compat/common/ComponentThemeProInterface;->getPictureStyleRes(I)I
+
+    move-result v1
+
+    sget v2, Laa/f;->tv_picturestyle_custom_color_temperature:I
+
+    const-string v3, "3"
+
+    invoke-static {v1, v2, v3}, Lg0/Z;->j(IILjava/lang/String;)Lcom/android/camera/data/data/d;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    invoke-static {}, Lcom/android/camera/data/data/compat/ComponentThemeCompat;->getImpl()Lcom/android/camera/data/data/compat/ComponentThemeInterface;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lcom/android/camera/data/data/compat/ComponentThemeInterface;->getComponentThemePro()Lcom/android/camera/data/data/compat/common/ComponentThemeProInterface;
+
+    move-result-object v1
+
+    sget v2, Laa/c;->ic_manual_picturestyle_color_tone:I
+
+    invoke-interface {v1, v2}, Lcom/android/camera/data/data/compat/common/ComponentThemeProInterface;->getPictureStyleRes(I)I
+
+    move-result v1
+
+    sget v2, Laa/f;->tv_picturestyle_custom_color_tune:I
+
+    const-string v3, "4"
+
+    invoke-static {v1, v2, v3}, Lg0/Z;->j(IILjava/lang/String;)Lcom/android/camera/data/data/d;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    invoke-static {}, La0/a;->j()Lg0/r0;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lg0/r0;->H()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-static {}, Lcom/android/camera/data/data/compat/ComponentThemeCompat;->getImpl()Lcom/android/camera/data/data/compat/ComponentThemeInterface;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lcom/android/camera/data/data/compat/ComponentThemeInterface;->getComponentThemePro()Lcom/android/camera/data/data/compat/common/ComponentThemeProInterface;
+
+    move-result-object v1
+
+    sget v2, Laa/c;->ic_manual_picturestyle_vibrance:I
+
+    invoke-interface {v1, v2}, Lcom/android/camera/data/data/compat/common/ComponentThemeProInterface;->getPictureStyleRes(I)I
+
+    move-result v1
+
+    sget v2, Laa/f;->tv_picturestyle_custom_vibrance:I
+
+    const-string v3, "6"
+
+    invoke-static {v1, v2, v3}, Lg0/Z;->j(IILjava/lang/String;)Lcom/android/camera/data/data/d;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    :cond_0
+    invoke-static {}, Lcom/android/camera/data/data/compat/ComponentThemeCompat;->getImpl()Lcom/android/camera/data/data/compat/ComponentThemeInterface;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lcom/android/camera/data/data/compat/ComponentThemeInterface;->getComponentThemePro()Lcom/android/camera/data/data/compat/common/ComponentThemeProInterface;
+
+    move-result-object v1
+
+    sget v2, Laa/c;->ic_manual_picturestyle_texture:I
+
+    invoke-interface {v1, v2}, Lcom/android/camera/data/data/compat/common/ComponentThemeProInterface;->getPictureStyleRes(I)I
+
+    move-result v1
+
+    sget v2, Laa/f;->pref_camera_sharpness_title:I
+
+    const-string v3, "5"
+
+    invoke-static {v1, v2, v3}, Lg0/Z;->j(IILjava/lang/String;)Lcom/android/camera/data/data/d;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/android/camera/data/data/c;->mItems:Ljava/util/List;
+
+    iget-object p0, p0, Lcom/android/camera/data/data/c;->mItems:Ljava/util/List;
+
+    return-object p0
+.end method

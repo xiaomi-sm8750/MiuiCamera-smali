@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ety">
+        <item quantity="other">Dlulisela phambili ngamasekhondi angu-%d</item>
+        <item quantity="one">Dlulisela phambili ngamasekhondi angu-%d</item>
+    </plurals>
+    <plurals name="etz">
+        <item quantity="other">Hlehlisa ngamasekhondi angu-%d</item>
+        <item quantity="one">Hlehlisa ngamasekhondi angu-%d</item>
+    </plurals>
+    <plurals name="eu8">
+        <item quantity="other">%d izaziso ezintsha</item>
+        <item quantity="one">%d izaziso ezintsha</item>
+    </plurals>
+</resources>

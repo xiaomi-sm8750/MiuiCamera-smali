@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ety">
+        <item quantity="other">%d سیکنڈز تیزی سے فارورڈ کریں</item>
+        <item quantity="one">%d سیکنڈ تیزی سے فارورڈ کریں</item>
+    </plurals>
+    <plurals name="etz">
+        <item quantity="other">%d سیکنڈز ریوائنڈ کریں</item>
+        <item quantity="one">%d سیکنڈ ریوائنڈ کریں</item>
+    </plurals>
+    <plurals name="eu8">
+        <item quantity="other">%d نئی اطلاعات</item>
+        <item quantity="one">%d نئی اطلاع</item>
+    </plurals>
+</resources>

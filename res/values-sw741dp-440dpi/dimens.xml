@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bd8">45.0dip</dimen>
+    <dimen name="d8f">162.0dip</dimen>
+    <dimen name="d9b">72.0dip</dimen>
+    <dimen name="d9u">630.0dip</dimen>
+</resources>

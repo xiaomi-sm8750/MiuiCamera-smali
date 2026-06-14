@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="etk">
+        <item quantity="other">Fokuseeritud. %d nägu tuvastatud</item>
+        <item quantity="one">Fokuseeritud. %d nägu tuvastatud</item>
+    </plurals>
+    <plurals name="etl">
+        <item quantity="other">%d fotot sarivõttes</item>
+        <item quantity="one">%d foto sarivõttes</item>
+    </plurals>
+    <plurals name="etm">
+        <item quantity="other">Intervall: %d sekundit</item>
+        <item quantity="one">Intervall: %d sekund</item>
+    </plurals>
+    <plurals name="etn">
+        <item quantity="other">Kestus: %d minutit</item>
+        <item quantity="one">Kestus: %d minut</item>
+    </plurals>
+    <plurals name="eto">
+        <item quantity="other">Kiirus: %dX</item>
+        <item quantity="one">Kiirus: %dX</item>
+    </plurals>
+    <plurals name="etp">
+        <item quantity="other">Kestvus: %d sekundit</item>
+        <item quantity="one">Kestvus: %d sekund</item>
+    </plurals>
+    <plurals name="etq">
+        <item quantity="other">Sisestatud %d tähemärki.</item>
+        <item quantity="one">Sisestatud %d tähemärk.</item>
+    </plurals>
+    <plurals name="etr">
+        <item quantity="other">Sisestage kuni %d tähemärki.</item>
+        <item quantity="one">Sisestage kuni %d tähemärk.</item>
+    </plurals>
+    <plurals name="ets">
+        <item quantity="other">Saad samasse võrku ühendada kuni %d kaamerat</item>
+        <item quantity="one">Saad samasse võrku ühendada kuni %d kaamerat</item>
+    </plurals>
+    <plurals name="ett">
+        <item quantity="other">Saad samasse võrku ühendada kuni %d monitori</item>
+        <item quantity="one">Saad samasse võrku ühendada kuni %d monitori</item>
+    </plurals>
+    <plurals name="etu">
+        <item quantity="other">Korraga saad luua kuni %d klooni.</item>
+        <item quantity="one">Korraga saad luua kuni %d klooni.</item>
+    </plurals>
+    <plurals name="etv">
+        <item quantity="other">&lt;Data>Kaameraga ei saa ühendust luua.&lt;br>See rakendus suletakse &lt;font color=#FFCE16>&lt;b>%1$d sekundi&lt;/b>&lt;/font>pärast. Pärast seda oodake minut või kaks ja proovige uuesti.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Kaameraga ei saa ühendust luua.&lt;br>See rakendus suletakse &lt;font color=#FFCE16>&lt;b>%1$d sekundi&lt;/b>&lt;/font>pärast. Pärast seda oodake minut või kaks ja proovige uuesti.&lt;/Data></item>
+    </plurals>
+    <plurals name="etw">
+        <item quantity="other">&lt;Data>See seade on praegu liiga kuum.&lt;br>See rakendus suletakse &lt;font color=#FFCE16>&lt;b>%1$d sekundi&lt;/b>&lt;/font>pärast. Praegune edenemine salvestati automaatselt.&lt;/Data></item>
+        <item quantity="one">&lt;Data>See seade on praegu liiga kuum.&lt;br>See rakendus suletakse &lt;font color=#FFCE16>&lt;b>%1$d sekundi&lt;/b>&lt;/font>pärast. Praegune edenemine salvestati automaatselt.&lt;/Data></item>
+    </plurals>
+    <plurals name="etx">
+        <item quantity="other">&lt;Data>Sinu kasutatava Kaamera versioon ei ühildu sinu seadme mudeliga.&lt;br>Rakendus sulgub &lt;font color=#FFCE16>&lt;b>%1$d sekundi&lt;/b>&lt;/font> pärast. Eemalda Kaamera uuendused ja proovi uuesti.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Sinu kasutatava Kaamera versioon ei ühildu sinu seadme mudeliga.&lt;br>Rakendus sulgub &lt;font color=#FFCE16>&lt;b>%1$d sekundi&lt;/b>&lt;/font> pärast. Eemalda Kaamera uuendused ja proovi uuesti.&lt;/Data></item>
+    </plurals>
+    <plurals name="eu0">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="eu1">
+        <item quantity="other">%1$d sek</item>
+        <item quantity="one">%1$d sek</item>
+    </plurals>
+    <plurals name="eu2">
+        <item quantity="other">Sisselülitatud taimer (%1$d sek). Fotod edastatakse sellesse seadmesse.</item>
+        <item quantity="one">Sisselülitatud taimer (%1$d sek). Fotod edastatakse sellesse seadmesse.</item>
+    </plurals>
+    <plurals name="eu3">
+        <item quantity="other">Kustuta %1$d visandit?</item>
+        <item quantity="one">Kustuta %1$d visand?</item>
+    </plurals>
+    <plurals name="eu4">
+        <item quantity="other">Lisa kuni %d eelseadistust</item>
+        <item quantity="one">Lisa kuni %d eelseadistus</item>
+    </plurals>
+    <plurals name="eu5">
+        <item quantity="other">Kustutada %d eelseadistust kohe?</item>
+        <item quantity="one">Kustutada %d eelseadistus kohe?</item>
+    </plurals>
+    <plurals name="eu6">
+        <item quantity="other">Kustutatud %d eelseadistust</item>
+        <item quantity="one">Kustutatud %d eelseadistus</item>
+    </plurals>
+    <plurals name="eu7">
+        <item quantity="other">Imporditud %d eelseadistust</item>
+        <item quantity="one">Imporditud %d eelseadistus</item>
+    </plurals>
+    <plurals name="eu9">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="eu_">
+        <item quantity="other">%1$s min</item>
+        <item quantity="one">%1$s min</item>
+    </plurals>
+    <plurals name="eua">
+        <item quantity="other">Lindista %d sekundit</item>
+        <item quantity="one">Lindista %d sekund</item>
+    </plurals>
+    <plurals name="eub">
+        <item quantity="other">Ajakülmutusega videoid saad salvestada ainult %d objektiga.</item>
+        <item quantity="one">Ajakülmutusega videoid saad salvestada ainult %d objektiga.</item>
+    </plurals>
+    <plurals name="euc">
+        <item quantity="other">%1$s fotot</item>
+        <item quantity="one">%1$s foto</item>
+    </plurals>
+</resources>

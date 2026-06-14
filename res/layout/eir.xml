@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center|top" android:layout_width="@dimen/dzb" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dza" android:layout_marginEnd="@dimen/dza"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:id="@id/vp_workspace_item" android:layout_width="fill_parent" android:layout_height="@dimen/dz7" android:layout_marginBottom="@dimen/dz8" app:nu="@color/fullscreen_background" app:nx="@dimen/dz9" app:ny="0.0dip">
+            <ImageView android:id="@id/vp_workspace_item_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+        </androidx.cardview.widget.CardView>
+        <TextView android:textSize="@dimen/dzf" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/vp_workspace_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dzd" android:singleLine="true" />
+        <LinearLayout android:id="@id/vp_workspace_item_layout" android:layout_width="fill_parent" android:layout_height="@dimen/dzd">
+            <com.android.camera.ui.ScrollTextview android:textSize="@dimen/dze" android:textColor="@color/vp_workspace_item_time_color" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/vp_workspace_item_time_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:textFontWeight="400" />
+            <ImageView android:layout_gravity="center" android:id="@id/vp_workspace_item_more_select" android:background="@drawable/ic_workspace_item_more_select" android:layout_width="@dimen/dzc" android:layout_height="@dimen/dzc" android:contentDescription="@string/ey6" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

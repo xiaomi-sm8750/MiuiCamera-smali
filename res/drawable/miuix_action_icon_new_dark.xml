@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable app:ay0="@dimen/cy0" app:ay1="@dimen/cxu" app:ay2="@dimen/cy6" app:ay3="@dimen/cxv" app:ay4="@dimen/cy2" app:ay5="@dimen/cy4" app:aya="󰀧" app:ayb="@color/miuix_default_color_action_icon_tint_dark" class="miuix.theme.symbol.SymbolDrawable" xmlns:app="http://schemas.android.com/apk/res-auto" />

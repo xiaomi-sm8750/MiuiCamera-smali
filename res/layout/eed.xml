@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:layout_gravity="center|right" android:id="@id/device_adjust_slide_view_layout" android:background="@drawable/bg_device_adjust_slide_view_layout" android:layout_width="@dimen/bol" android:layout_height="@dimen/bok">
+        <com.android.camera.ui.ZoomViewMM android:id="@id/device_adjust_slide_view" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:aba="@dimen/boh" app:asy="lite_slide" />
+    </FrameLayout>
+    <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center|right" android:id="@id/device_adjust_slide_tv" android:focusable="false" android:layout_width="@dimen/boj" android:layout_height="wrap_content" android:layout_marginRight="@dimen/boi" android:singleLine="true" android:shadowColor="@color/alpha24_black" android:shadowRadius="@dimen/dic" android:rotation="90.0" />
+</FrameLayout>

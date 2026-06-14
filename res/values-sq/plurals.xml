@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ety">
+        <item quantity="other">Shpejt përpara %d sekonda</item>
+        <item quantity="one">Shpejt përpara %d sekondë</item>
+    </plurals>
+    <plurals name="etz">
+        <item quantity="other">Shko prapa %d sekonda</item>
+        <item quantity="one">Shko prapa %d sekondë</item>
+    </plurals>
+    <plurals name="eu8">
+        <item quantity="other">%d njoftime të reja</item>
+        <item quantity="one">%d njoftim i ri</item>
+    </plurals>
+</resources>
